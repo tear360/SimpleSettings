@@ -1,0 +1,17 @@
+name: SimpleSettings
+version: '${version}'
+main: io.github.tear360.simplesettings.SimpleSettingsPlugin
+api-version: '26.1'
+description: Menu /settings avec les écrans natifs de Minecraft (dialogs)
+author: tear360
+website: https://github.com/tear360/SimpleSettings
+
+commands:
+  settings:
+    description: Ouvre le menu des paramètres
+    usage: /settings
+
+permissions:
+  simplesettings.use:
+    description: Permet d'ouvrir le menu /settings
+    default: true
